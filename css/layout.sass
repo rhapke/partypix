@@ -31,7 +31,12 @@ $radius: 10px
 @mixin pix_button
   width: 19px
   height: 19px
+ 
+@mixin boxbutton
+  width: 107px
+  height: 20px
   
+
 @mixin cornerbutton
   position: absolute
   bottom: 10px
@@ -62,7 +67,8 @@ $radius: 10px
 
 .spacer30
   height: 30px
-
+.spacer22
+  height: 22px
 
 
 
@@ -84,6 +90,14 @@ $radius: 10px
     @include pix_button
     background: url("../img/pix_next.png") no-repeat
     display: inline-block
+
+
+
+.button
+  a
+    display: block
+    height: 100%
+    width: 100%
 
 
 
@@ -130,14 +144,17 @@ $radius: 10px
       border: 1px solid
       border-radius: $radius
       margin: 0 0 10px 0
+      
     .box.galDetail
+      position: relative
       .downloadinfo
         float: left
-      .downloadButton
+      .button
         background: url("../img/btn_download.png") no-repeat
-        width: 107px
-        height: 20px
-        float: right
+        @include boxbutton
+        @include cornerbutton
+        
+        
     .box.abuse
       .left
         width: 95px
@@ -153,7 +170,6 @@ $radius: 10px
       .button
         width: 107px
         height: 20px
-        position: relativ
         margin: 10px 0 0 0
         float: right
         background: url("../img/btn_abuse.png") no-repeat
@@ -175,8 +191,7 @@ $radius: 10px
         display: block
       .button
         @include cornerbutton
-        width: 107px
-        height: 20px
+        @include boxbutton
         margin: 10px 0 0 0
         float: right
         background: url("../img/btn_search.png") no-repeat
@@ -188,5 +203,16 @@ $radius: 10px
           @include img_thumb_s
 
 
-
+    .box.votes
+      position: relative
+      .votes
+      .message
+        margin: 10px 0 0 0 
+      .button
+        @include boxbutton
+        position: absolute
+        right: 10px
+        top: 10px
+        background: url("../img/btn_search.png") no-repeat
+        
 
