@@ -1,0 +1,297 @@
+@import url(aha_reset.css);body{background:#000;color:#666;font:16px/1.3 "Helvetica Neue",Arial,Helvetica,Geneva,sans-serif;margin:0;padding:0;}
+img{vertical-align:bottom;}
+a img{border:none;}
+body.home a,body.home h1,body.home h2,body.home h3,body.home h4,body.home h5,body.home h6,.Col3Box.home a,.Col3Box.home h1,.Col3Box.home h2,.Col3Box.home h3,.Col3Box.home h4,.Col3Box.home h5,.Col3Box.home h6,body.home .GalleryTeaserWall .Col1BoxGallerie{color:#c03;}
+body.magazin a,body.magazin h1,body.magazin h2,body.magazin h3,body.magazin h4,body.magazin h5,body.magazin h6,.Col3Box.magazin a,.Col3Box.magazin h1,.Col3Box.magazin h2,.Col3Box.magazin h3,.Col3Box.magazin h4,.Col3Box.magazin h5,.Col3Box.magazin h6,body.magazin .GalleryTeaserWall .Col1BoxGallerie{color:#f90;}
+body.kino a,body.kino h1,body.kino h2,body.kino h3,body.kino h4,body.kino h5,body.kino h6,.Col3Box.kino a,.Col3Box.kino h1,.Col3Box.kino h2,.Col3Box.kino h3,.Col3Box.kino h4,.Col3Box.kino h5,.Col3Box.kino h6,body.kino .GalleryTeaserWall .Col1BoxGallerie{color:#669;}
+body.kultur a,body.kultur h1,body.kultur h2,body.kultur h3,body.kultur h4,body.kultur h5,body.kultur h6,.Col3Box.kultur a,.Col3Box.kultur h1,.Col3Box.kultur h2,.Col3Box.kultur h3,.Col3Box.kultur h4,.Col3Box.kultur h5,.Col3Box.kultur h6,body.kultur .GalleryTeaserWall .Col1BoxGallerie{color:#f69;}
+body.konzert a,body.konzert h1,body.konzert h2,body.konzert h3,body.konzert h4,body.konzert h5,body.konzert h6,.Col3Box.konzert a,.Col3Box.konzert h1,.Col3Box.konzert h2,.Col3Box.konzert h3,.Col3Box.konzert h4,.Col3Box.konzert h5,.Col3Box.konzert h6,body.konzert .GalleryTeaserWall .Col1BoxGallerie{color:#09c;}
+body.gastronomie a,body.gastronomie h1,body.gastronomie h2,body.gastronomie h3,body.gastronomie h4,body.gastronomie h5,body.gastronomie h6,.Col3Box.gastronomie a,.Col3Box.gastronomie h1,.Col3Box.gastronomie h2,.Col3Box.gastronomie h3,.Col3Box.gastronomie h4,.Col3Box.gastronomie h5,.Col3Box.gastronomie h6,body.gastronomie .GalleryTeaserWall .Col1BoxGallerie{color:#9c3;}
+body.pics a,body.pics h1,body.pics h2,body.pics h3,body.pics h4,body.pics h5,body.pics h6,.Col3Box.pics a,.Col3Box.pics h1,.Col3Box.pics h2,.Col3Box.pics h3,.Col3Box.pics h4,.Col3Box.pics h5,.Col3Box.pics h6,body.pics .GalleryTeaserWall .Col1BoxGallerie{color:#996;}
+body.home .RubrikHead,.Col3Box.home .Rubrik,p.morelink.home,body.home table.calendar a,body.home #ContainerContentLinie .GalleryTeaserWall .Col1BoxGallerie .galleryTileTitle .ItemHeadline2{background-color:#c03;color:#fff;}
+body.magazin .RubrikHead,.Col3Box.magazin .Rubrik,p.morelink.magazin,body.magazin table.calendar a,body.magazin #ContainerContentLinie .GalleryTeaserWall .Col1BoxGallerie .galleryTileTitle .ItemHeadline2{background-color:#f90;color:#fff;}
+body.kino .RubrikHead,.Col3Box.kino .Rubrik,p.morelink.kino,body.kino table.calendar a,body.kino #ContainerContentLinie .GalleryTeaserWall .Col1BoxGallerie .galleryTileTitle .ItemHeadline2{background-color:#669;color:#fff;}
+body.kultur .RubrikHead,.Col3Box.kultur .Rubrik,p.morelink.kultur,body.kultur table.calendar a,body.kultur #ContainerContentLinie .GalleryTeaserWall .Col1BoxGallerie .galleryTileTitle .ItemHeadline2{background-color:#f69;color:#fff;}
+body.konzert .RubrikHead,.Col3Box.konzert .Rubrik,p.morelink.konzert,body.konzert table.calendar a,body.konzert #ContainerContentLinie .GalleryTeaserWall .Col1BoxGallerie .galleryTileTitle .ItemHeadline2{background-color:#09c;color:#fff;}
+body.gastronomie .RubrikHead,.Col3Box.gastronomie .Rubrik,p.morelink.gastronomie,body.gastronomie table.calendar a,body.gastronomie #ContainerContentLinie .GalleryTeaserWall .Col1BoxGallerie .galleryTileTitle .ItemHeadline2{background-color:#9c3;color:#fff;}
+body.pics .RubrikHead,.Col3Box.pics .Rubrik,p.morelink.pics,body.pics table.calendar a,body.pics #ContainerContentLinie .GalleryTeaserWall .Col1BoxGallerie .galleryTileTitle .ItemHeadline2{background-color:#996;color:#fff;}
+body.home .sliderbox a:hover img{border-color:#c03;}
+body.magazin .sliderbox a:hover img{border-color:#f90;}
+body.kino .sliderbox a:hover img{border-color:#669;}
+body.kultur .sliderbox a:hover img{border-color:#f69;}
+body.konzert .sliderbox a:hover img{border-color:#09c;}
+body.gastronomie .sliderbox a:hover img{border-color:#9c3;}
+body.pics .sliderbox a:hover img{border-color:#996;}
+.head_home{background:rgba(204,0,51,0.65);}
+.head_magazin{background:rgba(255,153,0,0.65);}
+.head_kino{background:rgba(102,102,153,0.65);}
+.head_kultur{background:rgba(255,102,153,0.65);}
+.head_konzert{background:rgba(0,153,204,0.65);}
+.head_gastronomie{background:rgba(153,204,51,0.65);}
+.head_pics{background:rgba(153,153,102,0.65);}
+#All{background:#000;margin:7px;float:left;padding:2px 0 14px 0;position:absolute;top:90px;width:835px;}
+#Header{border-right:5px solid #000;border-bottom:4px solid #000;border-left:5px solid #000;position:relative;}
+#logo{float:right;}
+#eventslider-head{float:left;}
+#eventslider-head ul{margin:0;padding:0;}
+#eventslider-head li{border-right:3px solid #000;float:left;list-style:none;margin:0;padding:0;width:164px;position:relative;}
+#eventslider-head a{color:#fff;}
+#eventslider-head ul li div{margin:10px 0;padding:3px 5px;position:absolute;max-width:120px;}
+#eventslider-head h1,#eventslider-head h2{margin:0;padding:0;color:#fff;font-size:16px;}
+#MainNav{background:#000 url(http://www.aha-alleshalle.de/mauritius/comp/images/aha/bg-MainNav.gif) repeat-x;color:#000;font-weight:bold;font-size:18px;margin-bottom:0;text-shadow:1px 1px 0 #8f8f8f;-moz-border-radius:3px;-webkit-border-radius:3px;-khtml-border-radius:3px;border-radius:3px;z-index:10;}
+#MainNav ul{margin:0 auto;padding:0 0 0 15px;width:100%;}
+#MainNav ul li{display:inline-block;list-style:none;line-height:40px;margin-right:5px;vertical-align:top;}
+#MainNav a{display:block;color:#000;text-decoration:none;}
+#MainNav span{display:block;padding:0 25px 0 11px;margin-left:9px;height:48px;}
+#MainNav a:link,#MainNav a:visited,#MainNav a:link span,#MainNav a:visited span{background:none;}
+#MainNav a:hover,#MainNav li.active,#MainNav a:hover span,#MainNav li.active span{background:transparent url(http://www.aha-alleshalle.de/mauritius/comp/images/aha/bg-mainnav.png) no-repeat;}
+#MainNav li.home a:hover,body.home #MainNav li.active{background-position:0 -47px;}
+#MainNav li.home a:hover span,body.home #MainNav li.active span{background-position:100% 3px;}
+#MainNav li.magazin a:hover,body.magazin #MainNav li.active{background-position:0 -147px;}
+#MainNav li.magazin a:hover span,body.magazin #MainNav li.active span{background-position:100% -97px;}
+#MainNav li.kino a:hover,body.kino #MainNav li.active{background-position:0 -247px;}
+#MainNav li.kino a:hover span,body.kino #MainNav li.active span{background-position:100% -197px;}
+#MainNav li.kultur a:hover,body.kultur #MainNav li.active{background-position:0 -347px;}
+#MainNav li.kultur a:hover span,body.kultur #MainNav li.active span{background-position:100% -297px;}
+#MainNav li.konzert a:hover,body.konzert #MainNav li.active{background-position:0 -447px;}
+#MainNav li.konzert a:hover span,body.konzert #MainNav li.active span{background-position:100% -397px;}
+#MainNav li.gastronomie a:hover,body.gastronomie #MainNav li.active{background-position:0 -647px;}
+#MainNav li.gastronomie a:hover span,body.gastronomie #MainNav li.active span{background-position:100% -597px;}
+#MainNav li.pics a:hover,body.pics #MainNav li.active{background-position:0 -547px;}
+#MainNav li.pics a:hover span,body.pics #MainNav li.active span{background-position:100% -497px;}
+#Main{background:#fff url(http://www.aha-alleshalle.de/mauritius/comp/images/aha/bg-searchline-home.png) repeat-x;margin:-1px 5px 0 5px;padding:0 0 20px 0;-moz-border-radius-topright:3px;-moz-border-radius-topleft:3px;-webkit-border-top-right-radius:3px;-webkit-border-top-left-radius:3px;-khtml-border-top-right-radius:3px;-khtml-border-top-left-radius:3px;border-top-right-radius:3px;border-top-left-radius:3px;z-index:1;overflow:hidden;}
+#Main>img{padding:0 12px;max-width:801px;}
+h1{font-size:19px;font-weight:bold;margin:0 0 6px 0;}
+h2{font-size:16px;font-weight:bold;margin:0 0 6px 0;}
+h3{font-size:16px;font-weight:bold;margin:0 0 13px 0;}
+h4{font-size:16px;font-weight:bold;margin:0 0 12px 0;}
+h1 a,h2 a,h3 a,h4 a,h5 a,h6 a{text-decoration:none;}
+p{margin-bottom:12px;}
+input{font-size:14px;color:#666;}
+#Searchline{height:89px;margin-bottom:20px;}
+#Searchline div.noborderradiusinIEsucks{padding:25px 0 0 12px;}
+form#HeaderSearch{float:right;padding:0;}
+input#TopSearchInput{background:transparent url(http://www.aha-alleshalle.de/mauritius/comp/images/aha/bg-input-search.png) no-repeat 0 1px;border:none;font-size:20px;float:left;height:30px;line-height:31px;padding:5px 15px 0;width:244px;}
+#HeaderSearch button.submit{background:transparent url(http://www.aha-alleshalle.de/mauritius/comp/images/aha/bg-button-search-submit.png) no-repeat;border:none;float:right;height:30px;padding:0 0 0 12px;color:#fff;margin:3px 0 0 -6px;font-size:13px;width:95px;}
+body.magazin #HeaderSearch button.submit{background-position:0 -33px;}
+body.kino #HeaderSearch button.submit{background-position:0 -66px;}
+body.kultur #HeaderSearch button.submit{background-position:0 -99px;}
+body.konzert #HeaderSearch button.submit{background-position:0 -132px;}
+body.gastronomie #HeaderSearch button.submit{background-position:0 -198px;}
+body.pics #HeaderSearch button.submit{background-position:0 -165px;}
+@media screen and(-webkit-min-device-pixel-ratio:0){#HeaderSearch button.submit span{margin-top:-1px;margin-right:-1px;}
+}
+.speedDatingButton{float:left;}
+#Searchline a.button{background:transparent url(http://www.aha-alleshalle.de/mauritius/comp/images/aha/bg-button-li.png) no-repeat top left;border:none;color:#fff;text-decoration:none;padding-left:50px;}
+#Searchline a.button span{display:block;line-height:33px;padding:0 20px 0 0;margin:0;background:transparent url(http://www.aha-alleshalle.de/mauritius/comp/images/aha/bg-button-re.png) no-repeat top right;}
+body.magazin #Searchline a.button{background-position:0 -33px;}
+body.magazin #Searchline a.button span{background-position:100% -33px;}
+body.kino #Searchline a.button{background-position:0 -66px;}
+body.kino #Searchline a.button span{background-position:100% -66px;}
+body.kultur #Searchline a.button{background-position:0 -99px;}
+body.kultur #Searchline a.button span{background-position:100% -99px;}
+body.konzert #Searchline a.button{background-position:0 -132px;}
+body.konzert #Searchline a.button span{background-position:100% -132px;}
+body.gastronomie #Searchline a.button{background-position:0 -198px;}
+body.gastronomie #Searchline a.button span{background-position:100% -198px;}
+body.pics #Searchline a.button{background-position:0 -165px;}
+body.pics #Searchline a.button span{background-position:100% -165px;}
+.breaker{clear:both;height:0;overflow:hidden;}
+#ContainerContent{float:left;width:492px;font-size:13px;}
+#ContainerContentLinie{margin:0 0 12px 12px;}
+#contentHeader{margin:0 0 18px 12px;width:808px;position:relative;overflow:hidden;}
+#contentHeader img{width:100%;}
+#contentHeader a{color:#fff;}
+#contentHeader div{margin:10px 0;padding:3px 5px;position:absolute;bottom:0;}
+#contentHeader #catButton{margin:0;padding:0;top:0;bottom:auto;width:113px;height:102px;}
+#contentHeader #catButton.catButton_home{display:none;}
+#contentHeader #catButton.catButton_magazin{background:transparent url(http://www.aha-alleshalle.de/mauritius/comp/images/aha/button-magazin.png) no-repeat top left;}
+#contentHeader #catButton.catButton_kino{background:transparent url(http://www.aha-alleshalle.de/mauritius/comp/images/aha/button-kino.png) no-repeat top left;}
+#contentHeader #catButton.catButton_kultur{background:transparent url(http://www.aha-alleshalle.de/mauritius/comp/images/aha/button-kultur.png) no-repeat top left;}
+#contentHeader #catButton.catButton_konzert{background:transparent url(http://www.aha-alleshalle.de/mauritius/comp/images/aha/button-konzert.png) no-repeat top left;}
+#contentHeader #catButton.catButton_gastronomie{background:transparent url(http://www.aha-alleshalle.de/mauritius/comp/images/aha/button-gastronomie.png) no-repeat top left;}
+#contentHeader #catButton.catButton_pics{background:transparent url(http://www.aha-alleshalle.de/mauritius/comp/images/aha/button-pics.png) no-repeat top left;}
+#contentHeader h1{margin:0;padding:0;color:#fff;font-size:16px;}
+#contentHeader h2{margin:0;padding:0;color:#fff;font-size:14px;}
+div.Rubrik{float:right;color:#FFF;padding:2px 4px 3px;margin:0 0 0 8px;font-weight:bold;-moz-border-radius:3px;-webkit-border-radius:3px;-khtml-border-radius:3px;border-radius:3px;}
+div.Rubrik a{color:#FFF!important;text-decoration:none;}
+.Col3Box{clear:left;margin-left:12px;}
+.Col3Box img{float:left;margin-right:10px;}
+p.morelink{display:inline-table;margin:12px 0 24px;}
+p.morelink a{display:block;padding:5px 15px;color:#fff;text-decoration:none;}
+.pagebrowse{float:left;width:100%;}
+.pagebrowse a{text-decoration:none;}
+.pagebrowse span{color:#ababab;padding:0 3px;}
+.pagebrowse li{float:left;}
+.sliderbox ul,.sliderbox p{background:#f4f4f4;border:1px solid #acacac;border-bottom:none;padding:4px;}
+.sliderbox p{margin:0 auto;border-top:none;}
+.sliderbox li{display:inline-table;width:154px;vertical-align:top;}
+.sliderbox li.last{margin-right:0;}
+.sliderbox li h2{font-size:14px;font-weight:normal;margin:0;}
+.sliderbox img{border:1px solid #000;margin:0;}
+.sliderbox a:hover img{border:1px solid;}
+.sliderbox p{clear:both;}
+.sliderbox .pagebrowse{background:#f4f4f4 url(http://www.aha-alleshalle.de/mauritius/comp/images/aha/bg-sliderbox-pagebrowser-li.png) no-repeat top left;}
+.sliderbox .pagebrowse h2{border:none;border-right:1px solid #acacac;border-bottom:1px solid #acacac;float:right;line-height:22px;margin:0;padding:0 10px;width:92px;}
+.sliderbox .pagebrowse li{width:auto;}
+.galleryOverview ul{background:#f4f4f4;border:1px solid #acacac;padding:4px;}
+.galleryOverview li{display:inline-table;width:154px;vertical-align:top;}
+.galleryOverview li.last{margin-right:0;}
+.galleryOverview li h2{font-size:14px;font-weight:normal;margin:0 0 4px;background:#996;color:#fff;padding:0 2px;}
+.galleryOverview li h2 a{color:#fff;}
+.galleryOverview img{border:1px solid #000;margin:0;}
+.galleryOverview a:hover img{border:1px solid;}
+.mov_tea_01{margin:0 0 0 12px;}
+.mov_tea_02{float:left;margin-bottom:12px;width:150px;}
+.mov_tea_03{float:left;line-height:22px;margin-bottom:12px;text-align:center;width:190px;}
+.mov_tea_04{margin-top:2px;width:165px;}
+.mov_tea_05{float:left;margin-bottom:12px;text-align:right;width:140px;}
+.Extras{color:#9A9A9A;font-size:12px;margin:-10px 0 8px;}
+.CityTab{float:left;font-size:10px;font-weight:300;margin:0;padding:4px;text-decoration:none;text-transform:uppercase;}
+.CityTab.active{background-color:#F4F4F4;border-color:#D9D9D9 #D9D9D9 -moz-use-text-color;border-style:solid solid none;border-width:1px 1px medium;}
+.ShowtimesBox{border-bottom:1px solid #D9D6D9;margin:12px 0 0;}
+.Showtimes.upright{color:#555;float:right;font-size:10px;margin:0;text-transform:uppercase;}
+.balken1{background-color:#D3D3D3;clear:both;height:2px;overflow:hidden;}
+.Datum{border-bottom:1px solid #E3E0E3;border-top:1px solid #E3E0E3;clear:both;color:#9A9A9A;font-size:10px;height:19px;line-height:18px;margin-top:0;}
+.Datum span{float:right;text-transform:uppercase;}
+.ContentBoxHeadline,.ContentBoxHeadlinePoll{background-color:#DDD;font-weight:bold;line-height:20px;margin-top:15px;padding-left:6px;}
+.ContentBoxContent,.ContentBoxContentPoll{background-color:#F4F4F4;border:1px solid #D9D9D9;margin:2px 0 0;overflow:hidden;padding:10px 8px;position:relative;width:462px;}
+.ContentBoxContent form input{margin-top:0;width:326px;}
+.ContentBoxContent form label{display:inline-block;line-height:30px;width:127px;}
+.ContentBoxContent form textarea{width:455px;height:100px;}
+a.btn:link{text-decoration:none;}
+.btn{background-position:0 -4px;border:1px solid #D9D9D9;color:#7F7F7F;display:inline-block;font-size:12px;font-weight:bold;padding:3px 12px;}
+.Lupe,.btn,.arrow,.link_article{background-image:url("http://www.aha-alleshalle.de/mauritius/comp/images/aha/v.png");}
+.FacebookArticleHeader{float:right;margin-right:5px;}
+.TwitterArticleHeader{float:right;width:96px;}
+.ArticleSubject{color:#000;font-size:16px;font-weight:bold;margin:5px 0 10px;}
+.ContentImage{margin:0 0 10px 0;position:relative;text-align:center;}
+.ContentImage img{cursor:pointer;margin-bottom:2px;}
+.ContentImage.Left{padding:3px 0 0;float:left;margin:0 10px 10px 0;}
+.ContentImage.Small{width:152px;}
+.ContentImage.Small .Lupe{left:134px;top:99px;}
+.ContentImage.Medium{width:234px;}
+.ContentImage.Medium img{height:176px;width:234px;}
+.ContentImage.Medium .Lupe{left:214px;top:159px;}
+.ContentImage.Full{clear:right;display:none;text-align:center;}
+.ContentImage.Full .Lupe{display:none;}
+.ContentImage .Lupe{background-position:0 -322px;background-repeat:no-repeat;height:15px;position:absolute;width:15px;}
+.ContentImage .imgSubline,.ContentImage .imgSublineLandscape{background-color:#F4F4F4;border:1px solid #D9D9D9;font-size:11px;line-height:16px;margin:auto;padding:3px 4px 4px;text-align:left;}
+.Infobox.Right{float:right;margin:4px 0 8px 10px;}
+.Infobox{border:1px solid #C8C8C8;float:left;font-size:11px;line-height:18px;margin:15px 10px 8px 0;padding:3px 5px;width:140px;}
+.MoreNews{border-top:1px solid #C8C8C8;margin:12px 0 0;padding:3px 0 0;}
+.Col3Box.Weitere{margin:0 0 20px;}
+.link_article:before{content:"Artikel:";}
+.link_article{background-position:-85px -213px;background-repeat:no-repeat;line-height:16px;padding-left:16px;}
+.link_gallery:before{content:"Galerie:";}
+.link_gallery{background-position:-85px -213px;background-repeat:no-repeat;line-height:16px;padding-left:16px;}
+.link_link:before{content:"Link:";}
+.link_link{background-position:-85px -213px;background-repeat:no-repeat;line-height:16px;padding-left:16px;}
+.link_download:before{content:"Download:";}
+.link_download{background-position:-85px -213px;background-repeat:no-repeat;line-height:16px;padding-left:16px;}
+.commBallon{float:right;width:29px;margin:3px 0 0 -10px;}
+.commTitle{font-size:17px;line-height:22px;float:left;}
+.commTitle:after{content:" »";}
+.commTitle .red{font-size:21px;line-height:29px;}
+.commLink{float:right;width:200px;line-height:20px;margin-top:6px;font-size:11px;text-align:right;text-transform:uppercase;font-weight:normal;}
+.commLink a{color:#C60F00;}
+.commHead{color:#7f7f7f;clear:both;font-weight:bold;line-height:27px;font-size:12px;margin-top:18px;}
+.commForm{background-color:#f4f4f4;font:10px Arial;height:0;overflow:hidden;opacity:1;}
+.commFormError{color:red;margin:8px 0 -2px 10px;font:12px Arial;font-weight:bold;}
+.commFormErrors{border:1px solid #C60F00;overflow:hidden;background-color:#f4f4f4;opacity:1;}
+.commFormText{color:#7f7f7f;width:452px;height:50px;margin:10px;font:11px Arial;}
+.commFormTextAuth{color:#7f7f7f;width:452px;height:90px;margin:5px 10px;font:11px Arial;}
+.commFormField{color:#7f7f7f;width:196px;margin:5px 10px;font:11px Arial;}
+.commFormGuest{overflow:hidden;}
+.commFormUser{width:50%;float:right;overflow:hidden;}
+.commFormTopic{display:none;}
+.commFormCaptcha{border:solid #EBEBEB 1px;color:#7f7f7f;width:200px;height:100px;margin:0 16px 0 0;font:12px Arial;float:right;}
+.commFormElement{margin:0 10px;font:10px Arial;}
+.commFormFacebook .commFormElement{margin:5px 10px;}
+.commFormElement a{color:#C60F00;}
+.commFormUserinfo{margin:5px 10px;font:12px Arial;}
+.commFormLogin{float:left;width:100px;margin:-5px 10px 5px;}
+.commFormFacebook{border-top:#EBEBEB 1px solid;width:220px;margin:5px 10px;padding:10px 0;float:left;font-size:10px;}
+.commFormAuth{border:1px solid #EBEBEB;background-color:#f4f4f4;height:170px;overflow:hidden;}
+.commFormAuthErrors{border:1px solid #C60F00;background-color:#f4f4f4;height:190px;overflow:hidden;}
+.commPending{background-color:#fff;height:40px;padding:10px;overflow:hidden;}
+.commContainer{line-height:18px;}
+.commEven{border-top:#7F7F7F 1px solid;border-bottom:#7F7F7F 1px solid;background-color:#f4f4f4;padding:4px;}
+.commOdd{padding:4px;}
+.commDateInfo{float:left;width:80px;}
+.commText{float:left;width:380px;}
+.commMore{color:#7f7f7f;border-top:#EBEBEB 1px solid;margin:0 0 20px 0;height:25px;line-height:25px;font-weight:bold;font-size:12px;clear:both;}
+ul.tabs{padding:0 5px;line-height:37px;}
+ul.tabs li{display:inline-block;height:37px;padding-left:8px;margin-right:-10px;}
+body.gastronomie ul.tabs,body.gastronomie ul.tabs a{color:#658713;}
+ul.tabs li span{display:block;padding:0 20px 0 12px;}
+ul.tabs li,ul.tabs li span{background:transparent url(http://www.aha-alleshalle.de/mauritius/comp/images/aha/bg-tab.png) no-repeat 0 -114px;}
+ul.tabs li span{background-position:100% -76px;}
+ul.tabs li.active{background-position:0 -38px;font-weight:bold;}
+ul.tabs li.active span{background-position:100% 0;}
+.tabgrid-content{background:#eee;padding:10px;}
+.tabgrid-content ul{margin:0 20px;}
+.tabgrid-content li{display:inline-block;margin:0 0 30px 0;vertical-align:top;}
+.tabgrid-content .pagebrowse li{margin-bottom:0;}
+#ContainerBoxen{float:right;font-size:13px;width:328px;padding-right:5px;}
+.Widget{margin:0 0 18px 12px;max-width:316px;overflow:hidden;}
+.bannerLink{margin:0 0 18px 12px;max-width:316px;text-align:center;overflow:hidden;}
+.arrow{background-position:-85px -213px;background-repeat:no-repeat;color:#494949;line-height:22px;padding-left:16px;}
+table.calendar{width:100%;border-collapse:separate;border-spacing:3px;table-layout:fixed;}
+table.calendar tbody{line-height:2;}
+table.calendar th{text-align:center;font-weight:bold;}
+table.calendar td{background:#eee;border:1px solid #cacaca;text-align:center;}
+table.calendar a{display:block;color:#fff;text-decoration:none;}
+table.calendar td.empty{border:none;background:transparent;}
+table.calendar td.today{background:#fff;}
+table.calendar td.today a{background:#fff;color:#666;}
+table.calendar td,table.calendar a{-moz-border-radius:2px;-webkit-border-radius:2px;-khtml-border-radius:2px;border-radius:2px;}
+#Footer{clear:both;color:#ccc;margin:0 5px;line-height:40px;}
+#Footer ul{margin:0 20px 20px;}
+#Footer li{background:#000 url(http://www.aha-alleshalle.de/mauritius/comp/images/aha/bg-footer-entry.png) repeat-x bottom left;float:left;margin:0 20px 0 0;}
+#Footer li a{display:block;text-decoration:none;color:#ccc;}
+#Footer li a,#Footer li.active{padding:0 20px;}
+.FullBoxColor,.Col1BoxColor{width:300px;overflow:hidden;border:solid 1px #acacac;background-color:#f4f4f4;padding:7px;margin:0 0 18px 12px;}
+.FullBoxColor img{float:left;margin-right:10px;}
+.FullBoxColor p{margin-bottom:0;}
+.RubrikHead{margin:0 0 2px 12px;}
+.RubrikName{padding:3px 7px;color:#fff;font-weight:bold;}
+div.RubrikName a{color:#fff;text-decoration:none;}
+.GalleryTeaser .Images{background-color:#F4F4F4;border:1px solid #D9D9D9;margin:2px 0 0;overflow:hidden;padding:10px 8px;position:relative;text-align:center;}
+.GalleryFull .Loading{width:24px;height:24px;z-index:9999;position:absolute;left:230px;top:150px;background:url(http://www.aha-alleshalle.de/mauritius/comp/js/new/dm/resources/images/loading.gif);}
+#ContainerGalleryBig .GalleryFull .Loading{left:368px;top:270px;}
+.GalleryFull a{color:#428f18;}
+.GalleryFull h2 a{font-size:12px;}
+.GalleryFull h2,.GalleryTeaser h2{background-color:#DDD;font-size:12px;font-weight:bold;height:22px;line-height:20px;margin:0;padding:0 0 0 6px;}
+.GalleryFull .Head{margin:15px 0 0 0;padding:0 0 0 6px;height:22px;font-weight:bold;background-color:#DDD;}
+.GalleryFull .Head .left{float:left;width:390px;}
+.GalleryFull .Head .right{float:right;width:80px;}
+.GalleryFull .Navigation{background-color:#F4F4F4;border:1px solid #D9D9D9;border-top:0;margin:0;padding:3px 7px;font-size:11px;height:16px;overflow:hidden;}
+.GalleryFull .Navigation .left{width:100px;float:left;}
+.GalleryFull .Navigation .center{width:264px;text-align:center;float:left;}
+.GalleryFull .Navigation .right{width:100px;text-align:right;float:left;}
+.GalleryFull .Navigation .left span,.GalleryFull .Navigation .right span{font-size:14px;}
+.GalleryFull .GalleryBox{width:478px;margin:2px 0 12px 0;padding:0;background-color:#F4F4F4;border:1px solid #D9D9D9;position:relative;overflow:hidden;text-align:center;}
+.GalleryFull .GalleryBox .Subline{margin:0;padding:5px 5px 8px 5px;text-align:left;font-size:11px;}
+.GalleryTeaser .Subline{background-color:#F4F4F4;border:1px solid #C8C8C8;border-width:0 1px 1px;font-size:11px;margin:0 0 12px;padding:3px 7px;display:block;}
+.GalleryTeaser .Subline .left{float:left;}
+.GalleryTeaser .Subline .right{float:right;font-weight:bold;}
+.overlayLeft,.overlayRight{background-image:url(http://www.aha-alleshalle.de/mauritius/comp/js/new/dojo/resources/blank.gif);position:absolute;width:240px;height:500px;left:0;top:0;z-index:99;cursor:pointer;}
+.overlayRight{left:240px;}
+.overlayLeftImage{position:absolute;top:130px;left:0;width:60px;height:65px;display:none;background:url(http://www.aha-alleshalle.de/mauritius/comp/js/new/dm/resources/images/gallery_prev.png);}
+.overlayRightImage{position:absolute;top:130px;right:0;width:60px;height:65px;display:none;background:url(http://www.aha-alleshalle.de/mauritius/comp/js/new/dm/resources/images/gallery_next.png);}
+.GalleryFull .ShortcutHint,.GalleryFull .ShortcutHint.Hightlight{width:120px;height:74px;overflow:hidden;z-index:9997;position:absolute;left:180px;top:-80px;background:url(http://www.aha-alleshalle.de/mauritius/comp/js/new/dm/resources/images/shortcuts.png);}
+.GalleryFull .ShortcutHint.Highlight{z-index:9998;top:0;background:url(http://www.aha-alleshalle.de/mauritius/comp/js/new/dm/resources/images/shortcuts_red.png);}
+.CurrentImage,.InvisibleImage{position:absolute;width:480px;left:490px;top:0;padding:0;text-align:center;}
+.CurrentImage{left:0;}
+.GalleryTeaserWall .RubrikHead{display:none;}
+.GalleryTeaserWall .RubrikName{text-align:left;}
+.GalleryTeaserWall .Col1BoxGallerie{color:#C03;float:left;font-size:10px;line-height:13px;margin:24px 0 0 4px;text-align:left;width:154px;}
+.GalleryTeaserWall img{border:1px solid #000;margin:0;}
+#ContainerContentLinie .GalleryTeaserWall .Col1BoxGallerie .galleryTileTitle .ItemHeadline2{background:#C03;color:#FFF;font-size:14px;margin:0 0 4px;padding:4px 2px;}
+#ContainerContentLinie .GalleryTeaserWall .Col1BoxGallerie .galleryTileTitle .ItemHeadline2 a{text-decoration:none;color:#fff;}
+.Overline{display:none;}
+#adl_sb_table{width:849px!important;}
+.bannerTop{height:90px;left:0;position:absolute;text-align:center;top:0;width:849px;}
+.bannerTop td{text-align:right;}
+.bannerRightAd{clear:left;height:600px;left:849px;position:absolute;top:0;width:200px;}
