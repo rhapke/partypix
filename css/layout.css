@@ -1,0 +1,133 @@
+#all {
+  background: none repeat scroll 0 0 black;
+  float: left;
+  margin: 7px;
+  padding: 2px 0 14px;
+  position: absolute;
+  top: 90px;
+  width: 835px;
+  font-family: Arial;
+  font-size: 12px;
+  color: #b7b7b7; }
+
+.clear {
+  clear: both;
+  padding: 0;
+  margin: 0; }
+
+.left {
+  float: left; }
+
+.right {
+  float: right; }
+
+.spacer30 {
+  height: 30px; }
+
+.pagination {
+  float: right;
+  height: 100%;
+  width: 200px;
+  text-align: right; }
+  .pagination .text {
+    display: inline-block;
+    vertical-align: text-bottom;
+    height: 19px; }
+  .pagination .buttonBack {
+    width: 19px;
+    height: 19px;
+    background: url("../img/pix_back.png") no-repeat;
+    display: inline-block; }
+  .pagination .buttonForward {
+    width: 19px;
+    height: 19px;
+    background: url("../img/pix_next.png") no-repeat;
+    display: inline-block; }
+
+#partypixContainer .leftcol {
+  width: 480px;
+  float: left;
+  padding-left: 10px; }
+  #partypixContainer .leftcol .bigGallery .galleryHeader {
+    width: 100%;
+    height: 19px; }
+    #partypixContainer .leftcol .bigGallery .galleryHeader .back {
+      background: url("../img/back.png") no-repeat;
+      padding-left: 20px;
+      float: left; }
+  #partypixContainer .leftcol .bigGallery .galleryImage {
+    margin: 10px 0 0 0; }
+  #partypixContainer .leftcol .galleryThumbs .gallery {
+    margin-bottom: 16px;
+    height: 85px; }
+    #partypixContainer .leftcol .galleryThumbs .gallery .thumb {
+      width: 117px;
+      height: 85px;
+      margin-left: 4px;
+      float: left; }
+      #partypixContainer .leftcol .galleryThumbs .gallery .thumb img {
+        width: 117px;
+        height: 85px; }
+    #partypixContainer .leftcol .galleryThumbs .gallery .thumb:first-child {
+      margin-left: 0px; }
+#partypixContainer .rightcol {
+  width: 310px;
+  float: left;
+  margin-left: 10px; }
+  #partypixContainer .rightcol .box {
+    width: 290px;
+    min-height: 10px;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 0 0 10px 0; }
+  #partypixContainer .rightcol .box.galDetail .downloadinfo {
+    float: left; }
+  #partypixContainer .rightcol .box.galDetail .downloadButton {
+    background: url("../img/btn_download.png") no-repeat;
+    width: 107px;
+    height: 20px;
+    float: right; }
+  #partypixContainer .rightcol .box.abuse .left {
+    width: 95px; }
+  #partypixContainer .rightcol .box.abuse .right {
+    width: 195px; }
+  #partypixContainer .rightcol .box.abuse .img {
+    float: left; }
+    #partypixContainer .rightcol .box.abuse .img img {
+      width: 94px;
+      height: 70px; }
+  #partypixContainer .rightcol .box.abuse .text {
+    margin: 0 10px 10px 10px; }
+  #partypixContainer .rightcol .box.abuse .button {
+    width: 107px;
+    height: 20px;
+    position: relativ;
+    margin: 10px 0 0 0;
+    float: right;
+    background: url("../img/btn_abuse.png") no-repeat; }
+  #partypixContainer .rightcol .box.abo .headline {
+    float: left;
+    width: 100%; }
+  #partypixContainer .rightcol .box.abo .left .img img {
+    width: 145px;
+    height: 115px; }
+  #partypixContainer .rightcol .box.abo .right {
+    width: 130px; }
+  #partypixContainer .rightcol .box.eventsearch {
+    position: relative; }
+    #partypixContainer .rightcol .box.eventsearch select {
+      display: block; }
+    #partypixContainer .rightcol .box.eventsearch .button {
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+      width: 107px;
+      height: 20px;
+      margin: 10px 0 0 0;
+      float: right;
+      background: url("../img/btn_search.png") no-repeat; }
+  #partypixContainer .rightcol .box.moreShots .thumbs img {
+    margin-bottom: 10px;
+    width: 94px;
+    height: 70px; }

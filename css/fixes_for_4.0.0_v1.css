@@ -1,0 +1,20 @@
+.GalleryTeaserWall .Col1BoxGallerie {
+    margin: 4px 0 18px 4px;
+}
+
+.Datum span a:first-child{
+display:none;
+}
+
+#eventslider-head ul li div{
+    max-width: none;
+    bottom: 0px;
+    margin: 0;
+    padding: 0 3px;
+}
+
+#eventslider-head h1, #eventslider-head h2 {
+    font-size: 15px;
+}
+
+

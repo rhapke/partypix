@@ -1,0 +1,192 @@
+$textcolor: #b7b7b7
+$width_global: 835px
+$rightcol: 310px
+$radius: 10px
+
+@mixin leftcol
+  width: 480px
+
+@mixin text-base
+  font-family: Arial
+  font-size: 12px 
+  color: $textcolor
+
+@mixin img_big
+  width: 480px
+  height: 320px
+  
+@mixin img_teaser
+  width: 145px
+  height: 115px
+  
+@mixin img_thumb
+  width: 117px
+  height: 85px
+  //margin-right: 4px
+  
+@mixin img_thumb_s
+  width: 94px
+  height: 70px
+  
+@mixin pix_button
+  width: 19px
+  height: 19px
+  
+@mixin cornerbutton
+  position: absolute
+  bottom: 10px
+  right: 10px
+  
+
+#all
+  background: none repeat scroll 0 0 #000000
+  float: left
+  margin: 7px
+  padding: 2px 0 14px
+  position: absolute
+  top: 90px
+  width: $width_global
+  @include text-base
+  
+
+.clear
+  clear: both
+  padding: 0
+  margin: 0
+
+.left
+  float: left
+  
+.right
+  float: right
+
+.spacer30
+  height: 30px
+
+
+
+
+.pagination
+  float: right
+  height: 100%
+  width: 200px
+  text-align: right
+  .text 
+    display: inline-block
+    vertical-align: text-bottom
+    height: 19px
+  .buttonBack
+    @include pix_button
+    background: url("../img/pix_back.png") no-repeat
+    display: inline-block
+    
+  .buttonForward
+    @include pix_button
+    background: url("../img/pix_next.png") no-repeat
+    display: inline-block
+
+
+
+
+#partypixContainer
+  .leftcol
+    @include leftcol
+    float: left
+    padding-left: 10px
+    .bigGallery
+      .galleryHeader
+        width: 100%
+        height: 19px
+        .back
+          background: url("../img/back.png") no-repeat
+          padding-left: 20px
+          float: left
+        
+        
+      .galleryImage
+        margin: 10px 0 0 0
+       
+    .galleryThumbs
+      .gallery
+        margin-bottom: 16px
+        height: 85px
+        .thumb
+          @include img_thumb
+          margin-left: 4px
+          float: left
+          img 
+            @include img_thumb
+        .thumb:first-child
+          margin-left: 0px
+  
+  .rightcol
+    width: $rightcol
+    float: left
+    margin-left: 10px
+    .box
+      width: 290px
+      min-height: 10px
+      padding: 10px
+      border: 1px solid
+      border-radius: $radius
+      margin: 0 0 10px 0
+    .box.galDetail
+      .downloadinfo
+        float: left
+      .downloadButton
+        background: url("../img/btn_download.png") no-repeat
+        width: 107px
+        height: 20px
+        float: right
+    .box.abuse
+      .left
+        width: 95px
+      .right
+        width: 195px
+        
+      .img
+        float: left
+        img
+          @include img_thumb_s
+      .text
+        margin: 0 10px 10px 10px
+      .button
+        width: 107px
+        height: 20px
+        position: relativ
+        margin: 10px 0 0 0
+        float: right
+        background: url("../img/btn_abuse.png") no-repeat
+      
+    .box.abo
+      .headline
+        float: left
+        width: 100%
+      .left
+        .img
+          img
+            @include img_teaser
+      .right
+        width: 130px
+        
+    .box.eventsearch
+      position: relative
+      select
+        display: block
+      .button
+        @include cornerbutton
+        width: 107px
+        height: 20px
+        margin: 10px 0 0 0
+        float: right
+        background: url("../img/btn_search.png") no-repeat
+      
+    .box.moreShots
+      .thumbs
+        img
+          margin-bottom: 10px
+          @include img_thumb_s
+
+
+
+
