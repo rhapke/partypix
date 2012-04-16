@@ -16,7 +16,14 @@
     <link href='css/style.css?v=1' media='all' rel='stylesheet' />
     <link href='css/fixes_for_4.0.0_v1.css?v=1' media='all' rel='stylesheet' />
     <link href='css/layout.css' media='all' rel='stylesheet' />
-    <script src='js/libs/modernizr-2.0.6.min.js'></script>
+    <script src='js/libs/jquery-1.7.2.js'></script>
+    <!-- Add fancyBox -->
+    <link rel="stylesheet" href="plugins/fancybox/jquery.fancybox.css?v=2.0.5" type="text/css" media="screen" />
+    <script type="text/javascript" src="plugins/fancybox/jquery.fancybox.js"></script>
+    <script src='plugins/fancybox/custom.js'></script>
+    <script src='plugins/tools/jquery.tools.min.js'></script>
+    <script src='plugins/tools/custom.js'></script>
+    <link href='plugins/tools/tools.css' media='all' rel='stylesheet' />
   </head>
   <body class='pics'>
     <div id='all'>
@@ -59,60 +66,74 @@
           <div class='leftcol'>
             <div class='bigGallery'>
               <div class='galleryHeader'>
-                <div class='back'>zurück</div>
+                <div class='back'>
+                  <a href="index.html">zurück</a>
+                </div>
                 <div class='pagination'>
                   <span class='text'>Bild 1 von 32</span>
-                  <span class='buttonBack'></span>
-                  <span class='buttonForward'></span>
+                  <span class='buttonBack prev'></span>
+                  <span class='buttonForward next'></span>
                 </div>
                 <div class='clearfix'></div>
               </div>
               <div class='galleryImage'>
-                <img src='dummy/bigdummy.jpg' />
+                <div class='scrollable' id='scrollable'>
+                  <div class='items'>
+                    <div class='item'>
+                      <a class="fancybox" rel="gallery" href="dummy/detail_pic.png"><img src="dummy/detail_pic.png"/></a>
+                    </div>
+                    <div class='item'>
+                      <a class="fancybox" rel="gallery" href="dummy/bigdummy.jpg"><img src="dummy/bigdummy.jpg"/></a>
+                    </div>
+                    <div class='item'>
+                      <a class="fancybox" rel="gallery" href="dummy/XXL_pic.png"><img src="dummy/XXL_pic.png"/></a>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
             <div class='spacer30'></div>
             <div class='galleryThumbs'>
               <div class='gallery'>
                 <div class='thumb'>
-                  <a href="#"><img src="dummy/thumbdummy.jpg"/></a>
+                  <a class="fancybox" rel="gallery" href="dummy/detail_pic.png"><img src="dummy/detail_pic.png"/></a>
                 </div>
                 <div class='thumb'>
-                  <a href="#"><img src="dummy/thumbdummy.jpg"/></a>
+                  <a class="fancybox" rel="gallery" href="dummy/bigdummy.jpg"><img src="dummy/thumbdummy.jpg"/></a>
                 </div>
                 <div class='thumb'>
-                  <a href="#"><img src="dummy/thumbdummy.jpg"/></a>
+                  <a class="fancybox" rel="gallery" href="dummy/XXL_pic.png"><img src="dummy/XXL_pic.png"/></a>
                 </div>
                 <div class='thumb'>
-                  <a href="#"><img src="dummy/thumbdummy.jpg"/></a>
-                </div>
-              </div>
-              <div class='gallery'>
-                <div class='thumb'>
-                  <a href="#"><img src="dummy/thumbdummy.jpg"/></a>
-                </div>
-                <div class='thumb'>
-                  <a href="#"><img src="dummy/thumbdummy.jpg"/></a>
-                </div>
-                <div class='thumb'>
-                  <a href="#"><img src="dummy/thumbdummy.jpg"/></a>
-                </div>
-                <div class='thumb'>
-                  <a href="#"><img src="dummy/thumbdummy.jpg"/></a>
+                  <a class="fancybox" rel="gallery" href="dummy/thumbdummy.jpg"><img src="dummy/thumbdummy.jpg"/></a>
                 </div>
               </div>
               <div class='gallery'>
                 <div class='thumb'>
-                  <a href="#"><img src="dummy/thumbdummy.jpg"/></a>
+                  <a class="fancybox" rel="gallery" href="dummy/bigdummy.jpg"><img src="dummy/thumbdummy.jpg"/></a>
                 </div>
                 <div class='thumb'>
-                  <a href="#"><img src="dummy/thumbdummy.jpg"/></a>
+                  <a class="fancybox" rel="gallery" href="dummy/detail_pic.png"><img src="dummy/XXL_pic.png"/></a>
                 </div>
                 <div class='thumb'>
-                  <a href="#"><img src="dummy/thumbdummy.jpg"/></a>
+                  <a class="fancybox" rel="gallery" href="dummy/thumbdummy.jpg"><img src="dummy/thumbdummy.jpg"/></a>
                 </div>
                 <div class='thumb'>
-                  <a href="#"><img src="dummy/thumbdummy.jpg"/></a>
+                  <a class="fancybox" rel="gallery" href="dummy/XXL_pic.png"><img src="dummy/detail_pic.png"/></a>
+                </div>
+              </div>
+              <div class='gallery'>
+                <div class='thumb'>
+                  <a class="fancybox" rel="gallery" href="dummy/detail_pic.png"><img src="dummy/detail_pic.png"/></a>
+                </div>
+                <div class='thumb'>
+                  <a class="fancybox" rel="gallery" href="dummy/bigdummy.jpg"><img src="dummy/thumbdummy.jpg"/></a>
+                </div>
+                <div class='thumb'>
+                  <a class="fancybox" rel="gallery" href="dummy/XXL_pic.png"><img src="dummy/XXL_pic.png"/></a>
+                </div>
+                <div class='thumb'>
+                  <a class="fancybox" rel="gallery" href="dummy/thumbdummy.jpg"><img src="dummy/thumbdummy.jpg"/></a>
                 </div>
               </div>
             </div>
@@ -212,15 +233,15 @@
                 <h3>Noch mehr Shots</h3>
               </div>
               <div class='thumbs'>
-                <a href="#"><img src="dummy/thumbdummy.jpg"/></a>
-                <a href="#"><img src="dummy/thumbdummy.jpg"/></a>
-                <a href="#"><img src="dummy/thumbdummy.jpg"/></a>
-                <a href="#"><img src="dummy/thumbdummy.jpg"/></a>
-                <a href="#"><img src="dummy/thumbdummy.jpg"/></a>
-                <a href="#"><img src="dummy/thumbdummy.jpg"/></a>
-                <a href="#"><img src="dummy/thumbdummy.jpg"/></a>
-                <a href="#"><img src="dummy/thumbdummy.jpg"/></a>
-                <a href="#"><img src="dummy/thumbdummy.jpg"/></a>
+                <a class="fancybox" rel="gallery" href="dummy/thumbdummy.jpg"><img src="dummy/thumbdummy.jpg"/></a>
+                <a class="fancybox" rel="gallery" href="dummy/more_shots_pic.png"><img src="dummy/more_shots_pic.png"/></a>
+                <a class="fancybox" rel="gallery" href="dummy/thumbdummy.jpg"><img src="dummy/thumbdummy.jpg"/></a>
+                <a class="fancybox" rel="gallery" href="dummy/more_shots_pic.png"><img src="dummy/more_shots_pic.png"/></a>
+                <a class="fancybox" rel="gallery" href="dummy/thumbdummy.jpg"><img src="dummy/thumbdummy.jpg"/></a>
+                <a class="fancybox" rel="gallery" href="dummy/more_shots_pic.png"><img src="dummy/more_shots_pic.png"/></a>
+                <a class="fancybox" rel="gallery" href="dummy/thumbdummy.jpg"><img src="dummy/thumbdummy.jpg"/></a>
+                <a class="fancybox" rel="gallery" href="dummy/more_shots_pic.png"><img src="dummy/more_shots_pic.png"/></a>
+                <a class="fancybox" rel="gallery" href="dummy/thumbdummy.jpg"><img src="dummy/thumbdummy.jpg"/></a>
               </div>
               <div class='clearfix'></div>
             </div>
@@ -228,21 +249,7 @@
         </div>
       </div>
     </div>
-    <script src='//ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.js'></script>
-    <script type='text/javascript'>
-      //<![CDATA[
-        window.jQuery || document.write("<script src='js/jquery.min.js'>\x3C/script>")
-      //]]>
-    </script>
     <script src='js/plugins.js?v=1'></script>
     <script src='js/script.js?v=1'></script>
-    <script type='text/javascript'>
-      //<![CDATA[
-        var _gaq=[["_setAccount","UA-XXXXX-X"],["_trackPageview"],["_trackPageLoadTime"]];
-        (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
-        g.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js";
-        s.parentNode.insertBefore(g,s)}(document,"script"));
-      //]]>
-    </script>
   </body>
 </html>

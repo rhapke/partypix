@@ -22,7 +22,19 @@
     %link{ :href => "css/style.css?v=1", :media => "all", :rel => "stylesheet" }/
     %link{ :href => "css/fixes_for_4.0.0_v1.css?v=1", :media => "all", :rel => "stylesheet" }/
     %link{ :href => "css/layout.css", :media => "all", :rel => "stylesheet" }/
-    %script{ :src => "js/libs/modernizr-2.0.6.min.js" }
+    %script{ :src => "js/libs/jquery-1.7.2.js" }
+    -# %script{ :src => "js/libs/modernizr-2.5.3.min.js" }
+    
+    <!-- Add fancyBox -->
+    <link rel="stylesheet" href="plugins/fancybox/jquery.fancybox.css?v=2.0.5" type="text/css" media="screen" />
+    <script type="text/javascript" src="plugins/fancybox/jquery.fancybox.js"></script>
+    %script{ :src => "plugins/fancybox/custom.js" }
+    
+    %script{ :src => "plugins/tools/jquery.tools.min.js" }
+    %script{ :src => "plugins/tools/custom.js" }
+    %link{ :href => "plugins/tools/tools.css" , :media => "all", :rel => "stylesheet" }
+      
+    
     
   %body.pics
     #all
@@ -65,49 +77,60 @@
         :plain               
                 <div id="Searchline">      <div class="noborderradiusinIEsucks clearfix">                        <a class="button speedDatingButton" href="/home/aha-speeddating,10812492,10871630.html"><span>aha-Speeddating</span></a><form method="post" action="http://www.aha-alleshalle.de/mauritius/servlet/page/search/aha-alleshalle/home/suche/10812544,10812544,view,asSearch.html" name="searchfrm" id="HeaderSearch"><div>                              <input type="text" name="userQuery" class="ftext" id="TopSearchInput">                              <button onclick="dojo.byId('HeaderSearch').submit();" class="submit" type="submit">Suchen</button>
                           </div>                          <input type="hidden" value="10812804" name="contextsIds">                          <input type="hidden" value="maupublicationdate" name="sortBy">        <input type="hidden" value="&quot;MauArticle,MauGallery,DMBrightcoveVideo,CMDownload,DMMovie,DMEvent,DMVenue&quot;" name="docTypes">                      </form></div>                  </div>
+         
+         
+         
                                                   
         #partypixContainer
           .leftcol
             .bigGallery
               .galleryHeader
-                .back zurück
+                .back 
+                  <a href="index.html">zurück</a>
                   
                 .pagination
                   %span.text Bild 1 von 32
-                  %span.buttonBack 
-                  %span.buttonForward
+                  %span.buttonBack.prev
+                  %span.buttonForward.next
                 .clearfix
               .galleryImage
-                %img{:src=>"dummy/bigdummy.jpg"}
+                .scrollable#scrollable
+                  .items
+                    .item
+                      <a class="fancybox" rel="gallery" href="dummy/detail_pic.png"><img src="dummy/detail_pic.png"/></a>
+                    .item
+                      <a class="fancybox" rel="gallery" href="dummy/bigdummy.jpg"><img src="dummy/bigdummy.jpg"/></a>
+                    .item
+                      <a class="fancybox" rel="gallery" href="dummy/XXL_pic.png"><img src="dummy/XXL_pic.png"/></a>
             .spacer30
             .galleryThumbs
               .gallery
                 .thumb
-                  <a href="#"><img src="dummy/thumbdummy.jpg"/></a>
+                  <a class="fancybox" rel="gallery" href="dummy/detail_pic.png"><img src="dummy/detail_pic.png"/></a>
                 .thumb
-                  <a href="#"><img src="dummy/thumbdummy.jpg"/></a>
+                  <a class="fancybox" rel="gallery" href="dummy/bigdummy.jpg"><img src="dummy/thumbdummy.jpg"/></a>
                 .thumb
-                  <a href="#"><img src="dummy/thumbdummy.jpg"/></a>
+                  <a class="fancybox" rel="gallery" href="dummy/XXL_pic.png"><img src="dummy/XXL_pic.png"/></a>
                 .thumb
-                  <a href="#"><img src="dummy/thumbdummy.jpg"/></a>
+                  <a class="fancybox" rel="gallery" href="dummy/thumbdummy.jpg"><img src="dummy/thumbdummy.jpg"/></a>
               .gallery
                 .thumb
-                  <a href="#"><img src="dummy/thumbdummy.jpg"/></a>
+                  <a class="fancybox" rel="gallery" href="dummy/bigdummy.jpg"><img src="dummy/thumbdummy.jpg"/></a>
                 .thumb
-                  <a href="#"><img src="dummy/thumbdummy.jpg"/></a>
+                  <a class="fancybox" rel="gallery" href="dummy/detail_pic.png"><img src="dummy/XXL_pic.png"/></a>
                 .thumb
-                  <a href="#"><img src="dummy/thumbdummy.jpg"/></a>
+                  <a class="fancybox" rel="gallery" href="dummy/thumbdummy.jpg"><img src="dummy/thumbdummy.jpg"/></a>
                 .thumb
-                  <a href="#"><img src="dummy/thumbdummy.jpg"/></a>
+                  <a class="fancybox" rel="gallery" href="dummy/XXL_pic.png"><img src="dummy/detail_pic.png"/></a>
               .gallery
                 .thumb
-                  <a href="#"><img src="dummy/thumbdummy.jpg"/></a>
+                  <a class="fancybox" rel="gallery" href="dummy/detail_pic.png"><img src="dummy/detail_pic.png"/></a>
                 .thumb
-                  <a href="#"><img src="dummy/thumbdummy.jpg"/></a>
+                  <a class="fancybox" rel="gallery" href="dummy/bigdummy.jpg"><img src="dummy/thumbdummy.jpg"/></a>
                 .thumb
-                  <a href="#"><img src="dummy/thumbdummy.jpg"/></a>
+                  <a class="fancybox" rel="gallery" href="dummy/XXL_pic.png"><img src="dummy/XXL_pic.png"/></a>
                 .thumb
-                  <a href="#"><img src="dummy/thumbdummy.jpg"/></a>
+                  <a class="fancybox" rel="gallery" href="dummy/thumbdummy.jpg"><img src="dummy/thumbdummy.jpg"/></a>
           
             .pagination
               %span.text Seite 1 von 2
@@ -183,15 +206,15 @@
               .headline 
                 %h3 Noch mehr Shots
               .thumbs
-                <a href="#"><img src="dummy/thumbdummy.jpg"/></a>
-                <a href="#"><img src="dummy/thumbdummy.jpg"/></a>
-                <a href="#"><img src="dummy/thumbdummy.jpg"/></a>
-                <a href="#"><img src="dummy/thumbdummy.jpg"/></a>
-                <a href="#"><img src="dummy/thumbdummy.jpg"/></a>
-                <a href="#"><img src="dummy/thumbdummy.jpg"/></a>
-                <a href="#"><img src="dummy/thumbdummy.jpg"/></a>
-                <a href="#"><img src="dummy/thumbdummy.jpg"/></a>
-                <a href="#"><img src="dummy/thumbdummy.jpg"/></a>
+                <a class="fancybox" rel="gallery" href="dummy/thumbdummy.jpg"><img src="dummy/thumbdummy.jpg"/></a>
+                <a class="fancybox" rel="gallery" href="dummy/more_shots_pic.png"><img src="dummy/more_shots_pic.png"/></a>
+                <a class="fancybox" rel="gallery" href="dummy/thumbdummy.jpg"><img src="dummy/thumbdummy.jpg"/></a>
+                <a class="fancybox" rel="gallery" href="dummy/more_shots_pic.png"><img src="dummy/more_shots_pic.png"/></a>
+                <a class="fancybox" rel="gallery" href="dummy/thumbdummy.jpg"><img src="dummy/thumbdummy.jpg"/></a>
+                <a class="fancybox" rel="gallery" href="dummy/more_shots_pic.png"><img src="dummy/more_shots_pic.png"/></a>
+                <a class="fancybox" rel="gallery" href="dummy/thumbdummy.jpg"><img src="dummy/thumbdummy.jpg"/></a>
+                <a class="fancybox" rel="gallery" href="dummy/more_shots_pic.png"><img src="dummy/more_shots_pic.png"/></a>
+                <a class="fancybox" rel="gallery" href="dummy/thumbdummy.jpg"><img src="dummy/thumbdummy.jpg"/></a>
               .clearfix
     
     
@@ -206,20 +229,7 @@
     
     
       
-    -# 
-      Javascript at the bottom for fast page loading
-      Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary
-    %script{ :src => "//ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.js" }
-    :javascript
-      window.jQuery || document.write("<script src='js/jquery.min.js'>\x3C/script>")
-    
     %script{ :src => "js/plugins.js?v=1" }
     %script{ :src => "js/script.js?v=1" }
     
-    -#  asynchronous google analytics: mathiasbynens.be/notes/async-analytics-snippet
-    -#  change the UA-XXXXX-X to be your site's ID
-    :javascript
-      var _gaq=[["_setAccount","UA-XXXXX-X"],["_trackPageview"],["_trackPageLoadTime"]];
-      (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
-      g.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js";
-      s.parentNode.insertBefore(g,s)}(document,"script"));
+    
