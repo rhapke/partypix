@@ -32,7 +32,7 @@ this element is the one that *you* will style the most.
 }
 
 .item{
-	width: 218px;
-	padding-left:130px;
+	width: 480px;
+	//padding-left:130px;
 	overflow: hidden;
 }

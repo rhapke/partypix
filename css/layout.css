@@ -77,6 +77,8 @@ h1, h2, h3, h4, h5, h6 {
       background: url("../img/back.png") no-repeat;
       padding-left: 20px;
       float: left; }
+      #partypixContainer .leftcol .bigGallery .galleryHeader .back a {
+        text-decoration: none; }
   #partypixContainer .leftcol .galleryThumbs .gallery {
     margin-bottom: 16px; }
     #partypixContainer .leftcol .galleryThumbs .gallery .thumb {
@@ -168,6 +170,20 @@ h1, h2, h3, h4, h5, h6 {
 /*************** */
 /** index page */
 /*************** */
+.showboxGallery {
+  position: relative; }
+  .showboxGallery .description {
+    position: absolute;
+    top: 261px;
+    left: 133px;
+    width: 198px;
+    height: 40px;
+    background: url("../img/showbox_txt_layer.png") transparent;
+    z-index: 100;
+    color: #d9d9d9;
+    padding: 10px;
+    line-height: 15px; }
+
 .galleryThumbs .gallery {
   margin-bottom: 22px; }
   .galleryThumbs .gallery h2 {
