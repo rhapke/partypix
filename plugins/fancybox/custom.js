@@ -15,6 +15,7 @@
 		$(".fancybox").fancybox({
 			closeBtn: true,
 			loop: true,
+			minWidth: 820,
 			helpers : {
                 title : {
                     type : 'inside'
@@ -28,7 +29,11 @@
 	                this.element.title='Image '+ (this.index + 1) + ' / ' + this.group.length + socialbar;
 	                this.title=this.element.title;
 	            }
-	        }
+	        },
+	        afterClose : function(opt) {
+	            	this.element.title='';
+	                this.title=this.element.title;
+	        } 
 
 
 		});

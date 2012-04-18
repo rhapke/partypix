@@ -141,8 +141,66 @@
                           .clearfix
                     .item
                       <a class="fancybox" rel="gallery" href="dummy/bigdummy.jpg"><img src="dummy/bigdummy.jpg"/></a>
+                      .description
+                        .socialbar
+                          .email-container Per Email versenden
+                          .download-container Download
+                          .facebook-container
+                            #fb-root
+                            :javascript
+                              (function(d, s, id) {
+                                var js, fjs = d.getElementsByTagName(s)[0];
+                                if (d.getElementById(id)) return;
+                                js = d.createElement(s); js.id = id;
+                                js.src = "//connect.facebook.net/de_DE/all.js#xfbml=1";
+                                fjs.parentNode.insertBefore(js, fjs);
+                              }(document, 'script', 'facebook-jssdk'));
+                            <div class="fb-like" data-send="false" data-layout="button_count" data-width="450" data-show-faces="true" data-action="recommend"></div>
+                          
+                          .googleplus-container
+                            :plain
+                              <!-- Platzieren Sie dieses Tag zwischen den -Tags oder unmittelbar vor dem schließenden -Tag. -->
+                              <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+                              
+                              <!-- Platzieren Sie dieses Tag an der Stelle, an der die +1-Schaltfläche angezeigt werden soll. -->
+                              <g:plusone size="medium" annotation="none" width="60"></g:plusone>
+          
+                          .twitter-container
+                            :plain
+                               <a href="https://twitter.com/share" class="twitter-share-button" data-lang="de">Twittern</a>
+                               <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                          .clearfix
                     .item
                       <a class="fancybox" rel="gallery" href="dummy/detail_pic.png"><img src="dummy/detail_pic.png"/></a>
+                      .description
+                        .socialbar
+                          .email-container Per Email versenden
+                          .download-container Download
+                          .facebook-container
+                            #fb-root
+                            :javascript
+                              (function(d, s, id) {
+                                var js, fjs = d.getElementsByTagName(s)[0];
+                                if (d.getElementById(id)) return;
+                                js = d.createElement(s); js.id = id;
+                                js.src = "//connect.facebook.net/de_DE/all.js#xfbml=1";
+                                fjs.parentNode.insertBefore(js, fjs);
+                              }(document, 'script', 'facebook-jssdk'));
+                            <div class="fb-like" data-send="false" data-layout="button_count" data-width="450" data-show-faces="true" data-action="recommend"></div>
+                          
+                          .googleplus-container
+                            :plain
+                              <!-- Platzieren Sie dieses Tag zwischen den -Tags oder unmittelbar vor dem schließenden -Tag. -->
+                              <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+                              
+                              <!-- Platzieren Sie dieses Tag an der Stelle, an der die +1-Schaltfläche angezeigt werden soll. -->
+                              <g:plusone size="medium" annotation="none" width="60"></g:plusone>
+          
+                          .twitter-container
+                            :plain
+                               <a href="https://twitter.com/share" class="twitter-share-button" data-lang="de">Twittern</a>
+                               <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                          .clearfix
                       
               
             .spacer30
