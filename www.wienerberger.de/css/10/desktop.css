@@ -1,0 +1,87 @@
+
+/***********
+ * WebFonts
+ **************/
+
+@font-face {
+    font-family: 'TeXGyreHerosRegular';
+    src: url('webfonts/texgyreheros-regular-webfont.eot');
+    src: url('webfonts/texgyreheros-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/texgyreheros-regular-webfont.woff') format('woff'),
+         url('webfonts/texgyreheros-regular-webfont.ttf') format('truetype'),
+         url('webfonts/texgyreheros-regular-webfont.svg#TeXGyreHerosRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/***********
+ * Struktur
+ **************/
+
+/*********************
+ * Header
+ ********************/
+#DA-header #nav-mobile-toggle{display:none;}
+#DA-header #DA-header-wrapper #nav-mobile{display:none;}
+#DA-header #H-corporate{display:block;}
+#DA-header #H-corporate-stocks{display:block;}
+
+/**********************
+ * Key Visual
+ *******************/
+ .keyvis-slogan p{white-space:nowrap;}
+#DE-KeyVisualOverview{}
+.T-startoverview #O-teaserboxes { height: 10px; left: 16px; position: absolute; top: 153px; width: 985px; z-index: 5;}
+#O-teaserboxes { height: 10px; left: 16px; position: absolute; top: 153px; width: 985px; z-index: 5;}
+#J-img-2, #J-img-1{position:absolute;}
+#DA-KeyVisual .DE-teaserbox .contentbox img.logo{display:block;}
+#DA-KeyVisual .DE-teaserbox .contentbox .logocontainer img.logo{display:none;}
+.DE-teaserbox h2 .sIFR-flash{height:28px;}
+#DA-KeyVisual .DE-teaserbox .contentbox .hel.newfont{font-family:TeXGyreHerosRegular;font-size:18px;}
+
+/*********************
+ * Content
+ *******************/
+	/***
+	 * BannerArea
+	 ***/
+	#H-bgshade #DA-BannerArea .container{display:block;}
+	#H-bgshade #DA-BannerArea  #ui-catalogue-search{display:block;}
+	
+	/***
+	 * FeatureArea
+	 ***/
+	#DA-FeatureArea #cc-grid .cc-grid-inner .c4mobile{display:none;}
+	#DA-FeatureArea #cc-grid .cc-grid-inner .gridrow .c-4{display:block;}
+	#DA-FeatureArea #DA-BannerArea{display:none;}
+	#DA-FeatureArea .cc-ps-result .cc-product-gallery .compareRow{display:block;margin:0 0 10px 0px;}
+	/*
+	#DA-FeatureArea .cc-ps-result .cc-product-gallery .cc-product-gallery-item{height:165px !important;}
+	*/
+	/*
+	#ov-compare .cc-table .intro table.gal-img-cont-tabl{display:block;}
+	*/
+	#ov-compare .cc-table .intro .prod-compare-img-box, #ov-compare .cc-table .intro .prod-compare-image, 
+	#ov-compare .cc-table .intro .btn_removeProd.mobile{display:none;}
+	#DA-FeatureArea .cc-ps-result .cc-product-gallery .cc-product-gallery-item .l-compare{display:none;}
+	#DA-FeatureArea .article .cc-related-download{margin-left:0;padding-left:0;}
+	.T-content #DA-FeatureArea .article .DE-block-b{display:block;}
+	
+	/* Produktkatalog und Vergleich */
+	#WB-product-compare-data .control.prev{display:none;}
+	#WB-product-compare-data .control.next{display:none;}
+	#WB-product-compare-data .col.col-2{display:none;}
+		
+	/* Listenansicht ändern */
+	#DA-FeatureArea .overview-block > p a{text-decoration:none !important;color:black;cursor:pointer;}
+	#DA-FeatureArea .overview-block > p a:hover{text-decoration:none !important;color:black;cursor:pointer;}
+	 
+/*****************
+ * Footer
+ ****************/
+#DA-footer #F-corporate{display:none; background:none;}
+#DA-footer #F-corporate-stocks{display:none; background:none;}
+#DA-footer #DesktopVersion{display:none; background:none;}
+#F-nav li:nth-child(4){background:none;}
+#F-content #socialbookmarks{display:none;}

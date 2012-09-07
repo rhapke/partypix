@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.wienerberger.de	TRUE	/	FALSE	1999999999	JSESSIONID	70AAEE94672067DC5C8FB9562F75B18A
+www.wienerberger.de	TRUE	/	FALSE	1999999999	SS_X_JSESSIONID	3A5D4F8BBBB6F7061EA4AF7F422769B8
+

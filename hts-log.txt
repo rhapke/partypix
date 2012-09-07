@@ -1,0 +1,15 @@
+HTTrack3.46+htsswf+htsjava launched on Tue, 24 Jul 2012 13:13:51 at http://www.wienerberger.de/servlet/Satellite?pagename=Wienerberger/WBArticle/ArticleStandard10&cid=1328289669405&c=WBArticle&sl=wb_de_home_de +*.png +*.gif +*.jpg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2010], %s -->" -%l "de, en, *" http://www.wienerberger.de/servlet/Satellite?pagename=Wienerberger/WBArticle/ArticleStandard10&cid=1328289669405&c=WBArticle&sl=wb_de_home_de -O1 C:\Users\Thomas\Downloads\HTTrack\wienerberger_de +*.png +*.gif +*.jpg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+13:13:56	Warning: 	file not stored in cache due to bogus state (incomplete type): www.wienerberger.de/js/10/jquery.tools.min.js
+13:14:04	Warning: 	file not stored in cache due to bogus state (incomplete type): www.wienerberger.de/js/10/flowplayer-3.2.6.min.js
+13:15:33	Error: 	"/servlet/img/ui/" (404) at link www.wienerberger.de/servlet/img/ui/ (from www.wienerberger.de/js/10/general.js)
+13:15:37	Error: 	"/servlet/Netscape6/" (404) at link www.wienerberger.de/servlet/Netscape6/ (from www.wienerberger.de/js/s_code.js)
+
+HTTrack Website Copier/3.46 mirror complete in 1 minutes 46 seconds : 84 links scanned, 81 files written (2820844 bytes overall) [2701396 bytes received at 25484 bytes/sec], 221652 bytes transfered using HTTP compression in 10 files, ratio 27%, 4.1 requests per connection
+(2 errors, 2 warnings, 0 messages)
